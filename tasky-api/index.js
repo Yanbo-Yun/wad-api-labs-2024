@@ -31,6 +31,10 @@ app.use(errHandler);
 //Users router
 app.use('/api/users', usersRouter);
 
+// Enable CORS for all requests
+app.use(cors());
+
+
 
 
 
